@@ -29,6 +29,7 @@ RUN \
     ninja-build \
     prelink \
     python3 \
+    ImageMagick \
     && \
   curl https://sh.rustup.rs -sSf | sh -s -- -y \
     --no-modify-path \
